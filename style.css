@@ -1,0 +1,144 @@
+*{
+    font-family:'Inter';
+    margin:0;
+}
+
+
+
+/* menu superior */
+
+
+
+#menusuperior{
+    background-color:#303030;
+    color:#FFFFFF;
+}
+
+.titulo-menusuperior{
+    width: 1024px;;
+    height:90px;
+    padding-top:206px;
+    margin-left:62px;
+    font-size: 50px;
+    line-height: 72px;
+    font-weight:600;
+}
+
+.texto-menusuperior{
+    width: 1024px;;
+    height:90px;
+    padding-top:20px;
+    padding-bottom:144px;
+    margin-left:62px;
+    font-size:20px;
+    line-height:28px;
+}
+
+
+
+/* menu informacional */
+
+
+
+#menuinformacional{
+    height: 229px;
+    background-color:#F9F9F9;
+    display:grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+
+}
+
+.textoinformativo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.numero{
+    font-size: 40px;
+    font-weight: 600px;
+}
+
+
+
+/* menu foto */
+
+
+
+#secaofoto{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#informacoesfoto{
+    margin-top: 304px;
+    margin-left: 77px;
+}
+
+#titulofoto{
+    color: #000000;
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+#textofoto{
+    font-size: 24px;
+}
+
+#foto{
+    margin: 84px 54px 92px 64px;
+}
+
+
+
+/* formulário */
+
+
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+}
+
+#titulo-formulario{
+    font-size: 32px;
+    padding-top:87px;
+    margin-bottom: 48px;
+    color: #FFFFFF;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    background-color: #EAECE5;
+    margin-bottom: 62px;
+    border: 0px;
+    border-radius:10px;
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+button{
+    background-color:#C07212;
+    height: 74px;
+    width: 286px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color:#8f5107;
+    color: white;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
