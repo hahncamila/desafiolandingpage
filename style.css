@@ -43,25 +43,36 @@
 #menuinformacional{
     height: 229px;
     background-color:#F9F9F9;
+   /* display: flex;
+    flex-direction: row;
+    gap:99px;*/
     display:grid;
     grid-auto-flow: column;
     columns: auto;
-    align-items: center;
-
-}
-
-.textoinformativo{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    align-items:center;
     justify-content: center;
 }
 
-.numero{
-    font-size: 40px;
-    font-weight: 600px;
+#textoinformativo{
+    display:grid;
+    grid-auto-flow: column;
+    columns: auto;
+    gap:99px;
+   
 }
 
+.texto {
+    display: flex;
+    flex-direction: column;
+  
+}
+.numero{
+    font-size: 40px;
+    font-weight: 600;
+}
+.legenda{
+    font-size: 20px;
+}
 
 
 /* menu foto */
